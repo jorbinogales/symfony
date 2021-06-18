@@ -1,0 +1,19 @@
+category_list:
+  path: /api/v1/category
+  controller: App\Controller\CategoryController:index
+  methods: [GET]
+
+category_create:
+  path: /api/v1/category
+  controller: App\Controller\CategoryController:new
+  methods: [POST]
+
+product_list:
+  path: /api/v1/product
+  controller: App\Controller\ProductController:index
+  methods: [GET]
+
+product_create:
+  path: /api/v1/product
+  controller: App\Controller\ProductController:new
+  methods: [POST]
